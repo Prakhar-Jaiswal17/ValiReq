@@ -8,8 +8,27 @@
   "engines": { "node": ">=18" },
   "files": ["src", "README.md", "LICENSE", "CHANGELOG.md", "examples"],
   "scripts": { "test": "node --test", "lint": "node --check src/index.js" },
-  "keywords": ["express", "validation", "sanitization", "middleware", "schema", "security"],
+  "keywords": [
+    "express",
+    "validation",
+    "sanitization",
+    "middleware",
+    "schema",
+    "security",
+    "request",
+    "transform",
+    "coerce",
+    "cleanup"
+  ],
+  "author": "Prakhar Jaiswal (https://github.com/Prakhar-Jaiswal17)",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/Prakhar-Jaiswal17/ValiReq" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakhar-Jaiswal17/ValiReq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prakhar-Jaiswal17/ValiReq/issues"
+  },
+  "homepage": "https://github.com/Prakhar-Jaiswal17/ValiReq#readme",
   "publishConfig": { "access": "public" }
 }
