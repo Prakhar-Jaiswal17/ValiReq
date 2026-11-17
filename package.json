@@ -1,6 +1,6 @@
 {
   "name": "valireq",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A lightweight request validation, sanitization and transformation toolkit for Express.js.",
   "main": "src/index.js",
   "exports": { ".": "./src/index.js" },
@@ -10,6 +10,6 @@
   "scripts": { "test": "node --test", "lint": "node --check src/index.js" },
   "keywords": ["express", "validation", "sanitization", "middleware", "schema", "security"],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/your-name/valireq" },
+  "repository": { "type": "git", "url": "https://github.com/Prakhar-Jaiswal17/ValiReq" },
   "publishConfig": { "access": "public" }
 }
